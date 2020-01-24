@@ -3,11 +3,11 @@ const router = express.Router();
 // Ewelink
 const ewelink = require('ewelink-api');
 
-// @route     PUT api/deviceUsage
+// @route     GET api/deviceUsage
 // @desc      Gets device usage
 // @access    Public
 
-router.put('/:deviceId', async (req, res) => {
+router.get('/:deviceId', async (req, res) => {
   try {
     // Since we're using the auth middleware, we get access to the user
     // console.log(req.user);
