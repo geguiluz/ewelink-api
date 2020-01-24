@@ -1,0 +1,20 @@
+{
+  "name": "heimer-ewelink",
+  "version": "1.0.0",
+  "description": "Ewelink backend test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ewelink-api": "^1.10.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
